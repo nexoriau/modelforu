@@ -1,0 +1,825 @@
+{
+  "navbar": {
+    "home": "Home",
+    "product": "Prodotto",
+    "pricing": "Prezzi",
+    "login": "Accedi",
+    "signUp": "Registrati",
+    "searchTasks": "Cerca Attività",
+    "authButtons": {
+      "credits": "Crediti",
+      "remainingModels": "Modelli Rimanenti",
+      "dashboard": "Dashboard",
+      "profile": "Profilo",
+      "pricing": "Prezzi",
+      "managePricing": "Gestisci Prezzi",
+      "logout": "Esci"
+    },
+    "menu": "Menu",
+    "navigation": "Navigazione",
+    "language": "Lingua",
+    "helpCenter": "Centro Assistenza",
+    "account": "Account",
+    "copyright": "© 2026 Model For You. Tutti i diritti riservati."
+  },
+  "footer": {
+    "copyright": "Copyright ©",
+    "companyName": "Model For You",
+    "allRightsReserved": "Tutti i diritti riservati."
+  },
+  "notFound": {
+    "title": "Pagina Non Trovata",
+    "description": "Spiacenti, non siamo riusciti a trovare la pagina che stai cercando. Potrebbe essere stata spostata, eliminata o non è mai esistita.",
+    "goHome": "Vai alla Homepage"
+  },
+  "commonNotFound": {
+    "noDataTitle": "Nessun Dato Disponibile",
+    "noDataDescription": "I dati attualmente non contengono record corrispondenti.",
+    "noCollectionFound": "Nessuna {collection} trovata.",
+    "getStarted": "Inizia creando una nuova {collection}."
+  },
+  "signup": {
+    "title": "Benvenuto su Model For You",
+    "subtitle": "Inizia - è gratis. Nessuna carta di credito richiesta.",
+    "accountType": {
+      "personal": "Personale",
+      "agency": "Agenzia"
+    },
+    "form": {
+      "label": {
+        "fullName": "Nome Completo",
+        "agencyName": "Nome Agenzia",
+        "email": "Email",
+        "password": "Password"
+      },
+      "button": {
+        "createAccount": "Crea Account",
+        "creating": "Creazione in corso..."
+      },
+      "footer": {
+        "alreadyHaveAccount": "Hai già un account?",
+        "signInLink": "Accedi"
+      }
+    },
+    "successMessage": {
+      "title": "Conferma la tua email",
+      "bodyPart1": "Abbiamo inviato un link di verifica a",
+      "bodyPart2": ". Controlla la tua casella di posta per attivare il tuo account.",
+      "backToSignIn": "Torna all'Accesso"
+    },
+    "error": {
+      "generic": "Qualcosa è andato storto. Riprova."
+    }
+  },
+  "signIn": {
+    "title": "Accedi al tuo account",
+    "subtitle": "Inizia - è gratis. Nessuna carta di credito richiesta.",
+    "form": {
+      "label": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "link": {
+        "forgotPassword": "Password Dimenticata?"
+      },
+      "button": {
+        "login": "Accedi",
+        "signingIn": "Accesso in corso..."
+      },
+      "footer": {
+        "noAccount": "Non hai un account?",
+        "signUpLink": "Registrati"
+      }
+    },
+    "error": {
+      "generic": "Qualcosa è andato storto, riprova più tardi."
+    }
+  },
+  "forgotPassword": {
+    "title": "Password Dimenticata",
+    "subtitle": "Inserisci la tua email per il processo di reimpostazione della password.",
+    "success": {
+      "title": "Controlla la Tua Email",
+      "bodyPart1": "Abbiamo inviato un link per reimpostare la password a",
+      "bodyPart2": ". Controlla la tua casella di posta per reimpostare la password.",
+      "backToSignIn": "Torna all'Accesso"
+    },
+    "form": {
+      "label": {
+        "email": "Email"
+      },
+      "button": {
+        "sendEmail": "Invia Email di Reimpostazione Password",
+        "sending": "Invio in corso..."
+      },
+      "footer": {
+        "rememberPassword": "Ricordi la tua password?",
+        "signInLink": "Accedi"
+      }
+    },
+    "orDivider": "Altri Modi per Accedere",
+    "error": {
+      "tokenGeneration": "Token non generato, riprova più tardi.",
+      "generic": "Qualcosa è andato storto. Riprova."
+    }
+  },
+  "subscription": {
+    "title": "I Nostri Abbonamenti",
+    "desc": "Gestisci tutti i tuoi abbonamenti in un unico posto.",
+    "annual": "Annuale",
+    "monthly": "Mensile",
+    "getStarted": "Inizia",
+    "currentPlan": "✓ Piano Attuale"
+  },
+  "purchase": {
+    "tokens": { "title": "Servono Più Crediti", "purchase": "Acquista" },
+    "models": { "title": "Servono Più Modelli", "purchase": "Acquista" },
+    "checkout": {
+      "errors": {
+        "sessionCreation": "Impossibile creare la sessione di checkout",
+        "stripeInit": "Stripe non inizializzato",
+        "generic": "Errore durante il checkout Stripe"
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "subtitle": "Gestisci le impostazioni del tuo account e la sicurezza"
+    },
+    "notificationPreferences": "Preferenze di Notifica",
+    "profileInfo": {
+      "title": "Informazioni Profilo",
+      "fields": {
+        "firstName": "Nome",
+        "lastName": "Cognome",
+        "phone": "Telefono",
+        "country": "Paese",
+        "languages": "Lingue",
+        "email": "Email"
+      },
+      "placeholders": {
+        "firstName": "Nome",
+        "lastName": "Cognome",
+        "phone": "Telefono",
+        "country": "Paese",
+        "languages": "Lingue"
+      },
+      "countryOptions": {
+        "us": "Stati Uniti",
+        "uk": "Regno Unito",
+        "ca": "Canada",
+        "au": "Australia",
+        "pk": "Pakistan"
+      },
+      "languageOptions": {
+        "english": "Inglese",
+        "spanish": "Spagnolo",
+        "french": "Francese",
+        "german": "Tedesco",
+        "urdu": "Urdu"
+      }
+    },
+    "companyDetails": {
+      "title": "Dettagli Azienda",
+      "fields": {
+        "companyName": "Nome Azienda",
+        "companyWebsite": "Sito Web Aziendale",
+        "companyDescription": "Descrizione Azienda",
+        "companyIndustry": "Settore Aziendale",
+        "companyNumber": "Numero Azienda"
+      },
+      "placeholders": {
+        "companyName": "Nome Azienda",
+        "companyWebsite": "Sito Web Aziendale",
+        "companyDescription": "Descrizione Azienda",
+        "companyIndustry": "Settore Aziendale",
+        "companyNumber": "Numero Azienda"
+      },
+      "industryOptions": {
+        "technology": "Tecnologia",
+        "finance": "Finanza",
+        "healthcare": "Sanità",
+        "retail": "Vendita al Dettaglio",
+        "manufacturing": "Produzione"
+      }
+    },
+    "buttons": {
+      "saveChanges": "Salva Modifiche",
+      "saving": "Salvataggio in corso..."
+    },
+    "toasts": {
+      "success": "Modifiche salvate con successo!",
+      "error": "Impossibile salvare le modifiche"
+    }
+  },
+  "user": {
+    "currentSubscription": {
+      "loading": "Caricamento dettagli abbonamento...",
+      "header": {
+        "title": "Abbonamento Attuale",
+        "subtitle": "Gestisci il tuo piano e la fatturazione"
+      },
+      "planStatus": {
+        "typeMonthly": "Mensile",
+        "typeAnnual": "Annuale",
+        "suffix": "Abbonamento",
+        "statusActive": "Attivo",
+        "statusCanceling": "In Cancellazione",
+        "planSuffix": "Piano",
+        "cancellationAlert": {
+          "part1": "Il tuo abbonamento terminerà il",
+          "part2": "."
+        }
+      },
+      "details": {
+        "costLabel": "Costo",
+        "creditsLabel": "Crediti",
+        "billingLabel": "Prossima Fatturazione",
+        "notApplicable": "N/D"
+      },
+      "footerInfo": {
+        "title": "Devi apportare modifiche?",
+        "body": "Fai clic su \"Gestisci Abbonamento\" per aggiornare il tuo piano, il metodo di pagamento o annullare l'abbonamento."
+      },
+      "misc": {
+        "intervalMonthly": "Mensile",
+        "intervalAnnual": "Annuale",
+        "perYear": "all'anno",
+        "perMonth": "al mese",
+        "creditsPerYear": "crediti/anno",
+        "creditsPerMonth": "crediti/mese",
+        "agencyPlanTag": "Piano Agenzia",
+        "modelsUnit": "Modello",
+        "modelsUnitPlural": "Modelli",
+        "whatsIncluded": "Cosa è incluso:",
+        "unitCredits": "crediti",
+        "unitModels": "modelli"
+      },
+      "buttons": {
+        "manageSubscription": "Gestisci Abbonamento",
+        "loading": "Caricamento...",
+        "toast": {
+          "loginRequired": "Devi essere connesso per gestire il tuo abbonamento.",
+          "error": "Si è verificato un errore. Riprova."
+        }
+      }
+    },
+    "transactionHistory": {
+      "header": {
+        "title": "Cronologia Transazioni",
+        "subtitle": "Visualizza tutti i tuoi pagamenti e attività recenti."
+      },
+      "filters": {
+        "title": "Filtri",
+        "label": {
+          "invoiceId": "ID Fattura",
+          "email": "Email",
+          "date": "Data",
+          "description": "Descrizione",
+          "amount": "Importo"
+        },
+        "placeholder": {
+          "invoiceId": "Cerca per ID Fattura",
+          "email": "Cerca per Email",
+          "selectType": "Seleziona Tipo",
+          "amount": "Inserisci Importo",
+          "datePicker": "Seleziona una data"
+        },
+        "descriptionOptions": {
+          "all": "Tutti",
+          "unused": "Non lo uso abbastanza",
+          "tooExpensive": "Troppo costoso",
+          "switchedService": "Sono passato a un altro servizio",
+          "other": "Altro",
+          "otherWithComment": "Altro: {{comment}}"
+        },
+        "buttons": {
+          "apply": "Applica Filtri",
+          "clear": "Cancella Filtri"
+        }
+      },
+      "table": {
+        "sectionTitle": "Tutte le Transazioni",
+        "header": {
+          "date": "Data",
+          "invoiceId": "ID Fattura",
+          "email": "Email",
+          "amount": "Importo",
+          "paymentDetails": "Dettagli Pagamento",
+          "tokenExpiry": "Scadenza Token",
+          "cancelDetail": "Dettaglio Cancellazione",
+          "action": "Azione"
+        },
+        "emptyValue": "-",
+        "tokenStatus": {
+          "expired": "Scaduto"
+        },
+        "loading": {
+          "message": "Caricamento transazioni..."
+        },
+        "actionButton": {
+          "generating": "Generazione in corso...",
+          "download": "PDF"
+        }
+      }
+    },
+    "dashboard": {
+      "hero": {
+        "title": "BENVENUTO SU MODEL FOR YOU",
+        "subtitle": "Benvenuto su Model For You – la tua piattaforma AI all-in-one per creare video, voci e foto. Esplora gli strumenti, scatena la creatività e dai vita alle idee con la magia.",
+        "searchPlaceholder": "Hai bisogno di aiuto? Cerca il tuo problema all'istante"
+      },
+      "recentActivity": {
+        "title": "Attività Recente / Generazione",
+        "description": "La tua attività recente e la generazione di foto, video e audio appaiono qui"
+      },
+      "myModels": {
+        "title": "I Miei Modelli",
+        "viewAll": "Visualizza Tutti",
+        "seeDetails": "Vedi Dettagli"
+      },
+      "defaultModels": {
+        "title": "Modelli Predefiniti",
+        "viewAll": "Visualizza Tutti",
+        "description": "Un elenco di tutti i modelli predefiniti.",
+        "noTags": "Nessun tag",
+        "viewDetails": "Visualizza Dettagli",
+        "addModel": "Aggiungi questo modello",
+        "adding": "Aggiunta in corso..."
+      }
+    },
+    "myModels": {
+      "title": "Gestione Modelli",
+      "createButton": "Crea Nuovo Modello",
+      "description": "Un elenco di tutti i tuoi modelli principali.",
+      "noDescription": "Nessuna descrizione disponibile",
+      "noTags": "Nessun tag",
+      "viewDetails": "Visualizza Dettagli",
+      "viewAll": "Visualizza Tutti",
+      "createDialog": {
+        "title": "Crea Modello",
+        "description": "Compila i dettagli per creare un nuovo modello. Tutti i campi sono obbligatori."
+      },
+      "noCredits": {
+        "title": "Nessun Credito Modello",
+        "description": "Non hai crediti modello disponibili.",
+        "button": "Visualizza Abbonamenti"
+      }
+    },
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "generate": "Genera",
+      "models": "Modelli",
+      "myModels": "I Miei Modelli",
+      "subscription": "Abbonamento",
+      "transactionHistory": "Cronologia Transazioni",
+      "gallery": "Galleria",
+      "trashBin": "Cestino",
+      "header": "Model For You",
+      "mobileMenuTitle": "Menu Utente"
+    },
+    "gallery": {
+      "title": "Galleria",
+      "searchPlaceholder": "Cerca nella galleria...",
+      "loading": "Caricamento della tua galleria...",
+      "noItems": "Nessun elemento trovato nella tua galleria.",
+      "sort": {
+        "oldest": "Più Vecchi",
+        "newest": "Più Recenti"
+      },
+      "pagination": {
+        "showing": "Visualizzazione",
+        "to": "a",
+        "of": "di",
+        "items": "elementi",
+        "page": "Pagina",
+        "previousPage": "Pagina precedente",
+        "nextPage": "Pagina successiva"
+      },
+      "dialog": {
+        "moveToTrash": "Spostare nel Cestino?",
+        "moveToTrashDesc": "Questo video verrà spostato nel Cestino. Puoi ripristinarlo da lì entro 30 giorni.",
+        "moveToTrashSuccess": "Spostato nel cestino",
+        "cancel": "Annulla",
+        "confirm": "Sposta nel Cestino",
+        "moving": "Spostamento in corso...",
+        "viewMedia": "Visualizza Media",
+        "prompt": "Prompt"
+      },
+      "loadingMore": "Caricamento galleria...",
+      "loadMore": "Carica Altro"
+    },
+    "trash": {
+      "title": "Cestino",
+      "emptyTrash": "Svuota Cestino",
+      "searchPlaceholder": "Cerca nel cestino...",
+      "loading": "Caricamento cestino...",
+      "noItems": "Il cestino è vuoto",
+      "itemsInTrash": "nel cestino",
+      "emptying": "Svuotamento in corso...",
+      "noResultsFor": "Nessun risultato trovato per",
+      "table": {
+        "media": "Media",
+        "type": "Tipo",
+        "model": "Modello",
+        "description": "Descrizione",
+        "dateCreated": "Data Creazione",
+        "restore": "Ripristina",
+        "delete": "Elimina"
+      },
+      "dialog": {
+        "emptyTrash": "Svuotare il Cestino?",
+        "emptyTrashDesc": "Sei sicuro di voler svuotare il cestino? Questa azione non può essere annullata.",
+        "emptyTrigger": "Svuota Cestino",
+        "restore": "Ripristina",
+        "deletePermanently": "Elimina Permanentemente",
+        "deleteDesc": "Questa azione non può essere annullata. Questo eliminerà permanentemente l'elemento.",
+        "restoring": "Ripristino in corso...",
+        "deleting": "Eliminazione in corso...",
+        "generationDetails": "Dettagli Generazione",
+        "allDeletedWillBeRemoved": "Tutte le generazioni eliminate verranno rimosse permanentemente",
+        "actionCannotBeReversed": "Questa azione non può essere annullata",
+        "makeSureYouDontNeed": "Assicurati di non aver bisogno di nessuno di questi elementi"
+      },
+      "toasts": {
+        "emptied": "Cestino svuotato con successo",
+        "restored": "Elemento ripristinato con successo",
+        "deleted": "Elemento eliminato permanentemente"
+      }
+    },
+    "discarded": {
+      "title": "Immagini Scartate",
+      "noItems": "Nessuna immagine scartata trovata",
+      "watermark": "SCARTATO",
+      "restore": "Ripristina"
+    }
+  },
+  "admin": {
+    "managePricing": {
+      "subscription": {
+        "header": {
+          "title": "Schede Prezzi Abbonamento",
+          "addBtn": "Aggiungi Nuovo"
+        },
+        "table": {
+          "name": "Nome",
+          "monthlyPrice": "Prezzo Mensile",
+          "annualPrice": "Prezzo Annuale",
+          "highlighted": "In Evidenza",
+          "forAgency": "Per Agenzia",
+          "actions": "Azioni",
+          "noResults": "Nessun Risultato"
+        },
+        "dialog": {
+          "createTitle": "Crea Abbonamento",
+          "editTitle": "Modifica Abbonamento"
+        },
+        "deleteAlert": {
+          "title": "Sei sicuro?",
+          "description": "Questa azione non può essere annullata. Questo eliminerà permanentemente l'abbonamento.",
+          "cancelBtn": "Annulla",
+          "deleteBtn": "Elimina",
+          "deletingBtn": "Eliminazione in corso..."
+        },
+        "toasts": {
+          "deleteSuccess": "Scheda abbonamento eliminata con successo",
+          "deleteError": "Errore nell'eliminazione della scheda abbonamento"
+        }
+      },
+      "tokens": {
+        "header": {
+          "title": "Schede Pagamento",
+          "addBtn": "Aggiungi Nuovo"
+        },
+        "table": {
+          "name": "Nome",
+          "price": "Prezzo",
+          "credits": "Crediti",
+          "actions": "Azioni",
+          "noResults": "Nessun Risultato"
+        },
+        "dialog": {
+          "createTitle": "Crea Scheda Pagamento",
+          "editTitle": "Modifica Scheda Pagamento"
+        },
+        "deleteAlert": {
+          "title": "Sei sicuro?",
+          "description": "Questa azione non può essere annullata. Questo eliminerà permanentemente la scheda di pagamento.",
+          "cancelBtn": "Annulla",
+          "deleteBtn": "Elimina",
+          "deletingBtn": "Eliminazione in corso..."
+        },
+        "toasts": {
+          "deleteSuccess": "Scheda pagamento eliminata con successo",
+          "deleteError": "Errore nell'eliminazione della scheda pagamento"
+        }
+      },
+      "models": {
+        "header": {
+          "title": "Schede Modello",
+          "addBtn": "Aggiungi Nuovo"
+        },
+        "table": {
+          "name": "Nome",
+          "price": "Prezzo",
+          "quantity": "Quantità",
+          "actions": "Azioni",
+          "noResults": "Nessun Risultato"
+        },
+        "dialog": {
+          "createTitle": "Crea Scheda Modello",
+          "editTitle": "Modifica Scheda Modello"
+        },
+        "deleteAlert": {
+          "title": "Sei sicuro?",
+          "description": "Questa azione non può essere annullata. Questo eliminerà permanentemente la scheda modello.",
+          "cancelBtn": "Annulla",
+          "deleteBtn": "Elimina",
+          "deletingBtn": "Eliminazione in corso..."
+        },
+        "toasts": {
+          "deleteSuccess": "Scheda modello eliminata con successo",
+          "deleteError": "Errore nell'eliminazione della scheda modello"
+        }
+      }
+    },
+    "usersManagement": {
+      "title": "Aggiungi Utente",
+      "placeholder": "Cerca per nome o email",
+      "table": {
+        "header": {
+          "username": "Nome Utente",
+          "email": "Email",
+          "status": "Stato",
+          "role": "Ruolo",
+          "tokensRemaining": "Token Rimanenti",
+          "modelsRemaining": "Modelli Rimanenti",
+          "createdAt": "Creato il",
+          "actions": "Azioni"
+        },
+        "statusLabels": {
+          "approved": "Approvato",
+          "blocked": "Bloccato",
+          "pending": "In Attesa"
+        },
+        "roleLabels": {
+          "admin": "Amministratore",
+          "user": "Utente",
+          "guest": "Ospite"
+        },
+        "emptyState": {
+          "title": "Nessun Utente Trovato",
+          "description": "Non ci sono utenti nella tabella, aggiungi un nuovo utente."
+        }
+      },
+      "form": {
+        "fields": {
+          "displayName": {
+            "label": "Nome Visualizzato",
+            "placeholder": "Inserisci il nome dell'utente"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "Inserisci l'indirizzo email"
+          },
+          "password": {
+            "label": "Password",
+            "placeholder": "Inserisci la password"
+          },
+          "role": {
+            "label": "Ruolo",
+            "placeholder": "Seleziona un ruolo",
+            "admin": "Amministratore",
+            "user": "Utente",
+            "agency": "Agenzia"
+          },
+          "status": {
+            "label": "Stato",
+            "placeholder": "Seleziona uno stato",
+            "pending": "In Attesa",
+            "approved": "Approva",
+            "suspended": "Sospendi",
+            "blocked": "Blocca"
+          },
+          "credits": {
+            "label": "Crediti",
+            "placeholder": "Inserisci il numero di crediti",
+            "hoverContent": "Gli amministratori possono aggiungere solo crediti bonus. Non possono modificare l'importo dei crediti originariamente acquistati dall'utente."
+          }
+        },
+        "buttons": {
+          "submitCreate": "Invia",
+          "submitEdit": "Salva Modifiche",
+          "loading": "Caricamento..."
+        }
+      }
+    },
+    "dashboard": {
+      "header": {
+        "title": "Bentornato, {{name}}",
+        "subtitle": "Monitora l'attività della piattaforma, il coinvolgimento degli utenti e le prestazioni del sistema",
+        "tokens": "{{count}} token"
+      },
+      "platformOverview": {
+        "title": "Panoramica Piattaforma",
+        "totalUsers": {
+          "label": "Utenti Totali",
+          "desc": "Utenti registrati sulla piattaforma"
+        },
+        "totalTokens": {
+          "label": "Token Totali",
+          "desc": "Token distribuiti sulla piattaforma"
+        },
+        "revenue": {
+          "label": "Entrate",
+          "desc": "Da abbonamenti e acquisti"
+        }
+      },
+      "subModelStats": {
+        "title": "Statistiche Sotto-Modelli",
+        "total": {
+          "label": "Sotto-Modelli Totali",
+          "desc": "Sotto-Modelli base disponibili"
+        },
+        "pending": {
+          "label": "Richieste in Attesa",
+          "desc": "Sotto-modelli in attesa di addestramento"
+        },
+        "trained": {
+          "label": "Modelli Addestrati",
+          "desc": "Sotto-modelli clonati con successo"
+        }
+      },
+      "generationActivity": {
+        "title": "Attività di Generazione",
+        "photos": {
+          "label": "Foto Generate",
+          "desc": "Foto totali generate dall'AI"
+        },
+        "videos": {
+          "label": "Video Generati",
+          "desc": "Video totali generati dall'AI"
+        }
+      },
+      "accountDetails": {
+        "title": "Account Amministratore",
+        "subtitle": "Le informazioni del tuo profilo amministratore",
+        "fullName": "Nome Completo",
+        "email": "Indirizzo Email",
+        "tokenBalance": "Saldo Token"
+      }
+    }
+  },
+  "landingPage": {
+    "hero": {
+      "title": "Foto, Video e Messaggi Vocali Personalizzati — Powered by AI",
+      "subtitle": "Crea e gestisci modelli AI per generare foto, video e messaggi vocali sensuali personalizzati. Sii il primo ad avere accesso.",
+      "getStarted": "Inizia",
+      "badges": {
+        "noSpam": "Niente spam, annulla l'iscrizione in qualsiasi momento",
+        "secure": "Privato e sicuro",
+        "perks": "Vantaggi per i primi utilizzatori"
+      }
+    },
+    "cta": {
+      "title": "Pronto a portare la tua presenza digitale al livello successivo?",
+      "subtitle": "Contattaci oggi e scopri come i modelli AI intelligenti e personalizzabili possono trasformare il tuo flusso di lavoro, amplificare il tuo potenziale creativo, semplificare le attività ripetitive e consentirti di raggiungere i tuoi obiettivi personali.",
+      "button": "Inizia"
+    },
+    "features": {
+      "title": "Funzionalità Potenti che Elevano la Tua Esperienza",
+      "subtitle": "Scopri una suite di funzionalità potenti e facili da usare progettate per migliorare la tua produttività, semplificare il tuo flusso di lavoro e fornire risultati eccezionali, che tu stia lavorando da solo o come parte di un team.",
+      "list": {
+        "cloning": {
+          "title": "Clonazione modelli",
+          "desc": "Carica foto reali per clonare un modello o genera una persona completamente sintetica che non esiste."
+        },
+        "agency": {
+          "title": "Piani Agenzia",
+          "desc": "Passa tra più modelli all'interno di un unico account. Ideale per team e agenzie."
+        },
+        "photoVideo": {
+          "title": "Genera Foto + Video",
+          "desc": "Carica foto reali per clonare un modello o genera una persona completamente sintetica che non esiste."
+        },
+        "gallery": {
+          "title": "Galleria",
+          "desc": "Carica foto reali per clonare un modello o genera una persona completamente sintetica che non esiste."
+        },
+        "voice": {
+          "title": "Messaggi Vocali",
+          "desc": "Carica foto reali per clonare un modello o genera una persona completamente sintetica che non esiste."
+        },
+        "video": {
+          "title": "Genera Video",
+          "desc": "Carica foto reali per clonare un modello o genera una persona completamente sintetica che non esiste."
+        },
+        "download": {
+          "title": "Scarica ed Esporta",
+          "desc": "Carica foto reali per clonare un modello o genera una persona completamente sintetica che non esiste."
+        },
+        "platform": {
+          "title": "Scheda Modello e Piattaforma",
+          "desc": "Carica foto reali per clonare un modello o genera una persona completamente sintetica che non esiste."
+        },
+        "secure": {
+          "title": "Privato e Sicuro",
+          "desc": "Carica foto reali per clonare un modello o genera una persona completamente sintetica che non esiste."
+        }
+      }
+    },
+    "steps": {
+      "badge": "Processo Semplice",
+      "title": "Come Funziona:",
+      "subtitle": "Processo Passo dopo Passo",
+      "description": "Trasforma le tue idee in realtà con il nostro processo semplificato in cinque passaggi. Dalla registrazione alla celebrazione, l'abbiamo reso senza sforzo.",
+      "list": {
+        "signup": {
+          "title": "Registrati / Accedi",
+          "desc": "Crea il tuo account in pochi secondi e inizia"
+        },
+        "create": {
+          "title": "Crea il Tuo Modello",
+          "desc": "Carica e personalizza le preferenze del tuo modello AI"
+        },
+        "generate": {
+          "title": "Genera",
+          "desc": "Guarda l'AI dare vita alla tua visione creativa"
+        },
+        "export": {
+          "title": "Esporta e Fatto",
+          "desc": "Scarica istantaneamente nel formato preferito"
+        },
+        "enjoy": {
+          "title": "Divertiti",
+          "desc": "Condividi e celebra la tua creazione finale"
+        }
+      },
+      "button": "Inizia Ora"
+    },
+    "carousel": {
+      "title": "Scopri le Nostre Straordinarie Creazioni Visive",
+      "subtitle": "Sfoglia una collezione curata di immagini straordinarie, output di modelli e momenti creativi, mostrando il pieno potenziale della nostra piattaforma e la bellezza di ogni risultato generato in dettaglio vivido.",
+      "items": {
+        "anime": "Illustrazione personaggio anime",
+        "cat": "Gatto con chitarra",
+        "portrait": "Fotografia ritratto",
+        "yinyang": "Opera d'arte yin yang",
+        "abstract": "Arte astratta"
+      }
+    },
+    "faq": {
+      "title": "Trova Risposte alle Domande Comuni Qui",
+      "subtitle": "Scopri una suite di funzionalità potenti e facili da usare progettate per migliorare la tua produttività, semplificare il tuo flusso di lavoro e fornire risultati eccezionali, che tu stia lavorando da solo o come parte di un team.",
+      "list": {
+        "q1": {
+          "q": "Per cosa posso usare i modelli AI?",
+          "a": "I nostri modelli AI possono essere utilizzati per un'ampia varietà di attività tra cui generazione di contenuti, analisi dei dati, creazione di immagini, assistenza al codice, supporto alla scrittura, ricerca, brainstorming e molto altro. Che tu stia lavorando su progetti creativi, applicazioni aziendali o attività personali, i nostri modelli sono progettati per adattarsi alle tue esigenze specifiche."
+        },
+        "q2": {
+          "q": "Ho bisogno di competenze tecniche per usarlo?",
+          "a": "Non sono richieste competenze tecniche! La nostra piattaforma è progettata per essere user-friendly e accessibile a tutti. Descrivi semplicemente ciò che vuoi ottenere in linguaggio semplice e l'AI comprenderà e ti assisterà. Tuttavia, avere conoscenze tecniche può aiutarti a sfruttare funzionalità e capacità più avanzate."
+        },
+        "q3": {
+          "q": "I miei dati sono privati e sicuri?",
+          "a": "Sì, prendiamo molto sul serio la privacy e la sicurezza dei dati. Le tue conversazioni e i tuoi dati sono crittografati e seguiamo pratiche di sicurezza standard del settore. Non vendiamo le tue informazioni personali a terze parti. Consulta la nostra politica sulla privacy per informazioni dettagliate su come gestiamo e proteggiamo i tuoi dati."
+        },
+        "q4": {
+          "q": "Posso personalizzare la personalità dell'AI?",
+          "a": "Sì, puoi personalizzare il modo in cui l'AI risponde a te. Puoi impostare preferenze per tono, livello di formalità, lunghezza della risposta e stile di comunicazione. Alcuni piani offrono anche opzioni di personalizzazione avanzate in cui puoi creare persone specifiche o regolare il comportamento dell'AI per adattarlo al tuo flusso di lavoro e alle tue preferenze."
+        },
+        "q5": {
+          "q": "In quali formati posso esportare i contenuti?",
+          "a": "Puoi esportare i contenuti in più formati tra cui testo semplice (.txt), Markdown (.md), PDF, documenti Word (.docx), HTML e altro. Le opzioni di esportazione disponibili possono variare a seconda del tipo di contenuto e del tuo piano di abbonamento. Puoi anche copiare i contenuti direttamente negli appunti per un facile incolla."
+        },
+        "q6": {
+          "q": "Posso utilizzare i contenuti generati dall'AI?",
+          "a": "Sì, puoi utilizzare i contenuti generati dall'AI per i tuoi progetti. Tuttavia, ti consigliamo di rivedere e modificare i contenuti per assicurarti che soddisfino le tue esigenze e standard specifici. Sebbene tu abbia i diritti per utilizzare l'output, dovresti essere consapevole che i contenuti generati dall'AI potrebbero non essere idonei per la protezione del copyright in tutte le giurisdizioni. Verifica sempre le informazioni fattuali e assicurati la conformità con le normative pertinenti."
+        },
+        "q7": {
+          "q": "C'è un limite alla generazione?",
+          "a": "I limiti di utilizzo dipendono dal tuo piano di abbonamento. I piani gratuiti in genere hanno limiti giornalieri o mensili sul numero di richieste o token che puoi utilizzare. I piani a pagamento offrono limiti più elevati o utilizzo illimitato. Puoi controllare il tuo utilizzo attuale e i limiti nel dashboard del tuo account. Se raggiungi il tuo limite, puoi aggiornare il tuo piano o attendere fino a quando la tua quota non viene ripristinata."
+        }
+      }
+    }
+  },
+  "generate": {
+    "title": "Generatore di Contenuti AI",
+    "description": "Seleziona il tipo di contenuto, scegli un avatar e fornisci un prompt per iniziare a generare.",
+    "tabs": {
+      "photo": "Foto",
+      "video": "Video",
+      "audio": "Audio"
+    },
+    "avatarSection": {
+      "title": "Scegli il Tuo Avatar AI",
+      "selected": "(Selezionato: {{name}})",
+      "defaultBadge": "PREDEFINITO"
+    },
+    "promptSection": {
+      "title": "Descrivi il Contenuto",
+      "noAvatarTitle": "Nessun Avatar Selezionato",
+      "noAvatarDescription": "Seleziona un Avatar AI dal carosello sopra per continuare."
+    }
+  }
+}

@@ -1,0 +1,825 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "product": "Produkt",
+    "pricing": "Preise",
+    "login": "Anmelden",
+    "signUp": "Registrieren",
+    "searchTasks": "Aufgaben suchen",
+    "authButtons": {
+      "credits": "Credits",
+      "remainingModels": "Verbleibende Modelle",
+      "dashboard": "Dashboard",
+      "profile": "Profil",
+      "pricing": "Preise",
+      "managePricing": "Preise verwalten",
+      "logout": "Abmelden"
+    },
+    "menu": "Menü",
+    "navigation": "Navigation",
+    "language": "Sprache",
+    "helpCenter": "Hilfezentrum",
+    "account": "Konto",
+    "copyright": "© 2026 Model For You. Alle Rechte vorbehalten."
+  },
+  "footer": {
+    "copyright": "Copyright ©",
+    "companyName": "Model For You",
+    "allRightsReserved": "Alle Rechte vorbehalten."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Entschuldigung, wir konnten die gesuchte Seite nicht finden. Sie wurde möglicherweise verschoben, gelöscht oder hat nie existiert.",
+    "goHome": "Zur Startseite"
+  },
+  "commonNotFound": {
+    "noDataTitle": "Keine Daten verfügbar",
+    "noDataDescription": "Die Daten enthalten derzeit keine übereinstimmenden Einträge.",
+    "noCollectionFound": "Keine {collection} gefunden.",
+    "getStarted": "Beginnen Sie, indem Sie eine neue {collection} erstellen."
+  },
+  "signup": {
+    "title": "Willkommen bei Model For You",
+    "subtitle": "Jetzt starten - es ist kostenlos. Keine Kreditkarte erforderlich.",
+    "accountType": {
+      "personal": "Persönlich",
+      "agency": "Agentur"
+    },
+    "form": {
+      "label": {
+        "fullName": "Vollständiger Name",
+        "agencyName": "Agenturname",
+        "email": "E-Mail",
+        "password": "Passwort"
+      },
+      "button": {
+        "createAccount": "Konto erstellen",
+        "creating": "Wird erstellt..."
+      },
+      "footer": {
+        "alreadyHaveAccount": "Haben Sie bereits ein Konto?",
+        "signInLink": "Anmelden"
+      }
+    },
+    "successMessage": {
+      "title": "Bestätigen Sie Ihre E-Mail",
+      "bodyPart1": "Wir haben einen Bestätigungslink an",
+      "bodyPart2": " gesendet. Bitte überprüfen Sie Ihren Posteingang, um Ihr Konto zu aktivieren.",
+      "backToSignIn": "Zurück zur Anmeldung"
+    },
+    "error": {
+      "generic": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+    }
+  },
+  "signIn": {
+    "title": "Bei Ihrem Konto anmelden",
+    "subtitle": "Jetzt starten - es ist kostenlos. Keine Kreditkarte erforderlich.",
+    "form": {
+      "label": {
+        "email": "E-Mail",
+        "password": "Passwort"
+      },
+      "link": {
+        "forgotPassword": "Passwort vergessen?"
+      },
+      "button": {
+        "login": "Anmelden",
+        "signingIn": "Wird angemeldet..."
+      },
+      "footer": {
+        "noAccount": "Haben Sie kein Konto?",
+        "signUpLink": "Registrieren"
+      }
+    },
+    "error": {
+      "generic": "Etwas ist schief gelaufen, bitte versuchen Sie es später erneut."
+    }
+  },
+  "forgotPassword": {
+    "title": "Passwort vergessen",
+    "subtitle": "Geben Sie Ihre E-Mail-Adresse für den Passwortzurücksetzungsprozess ein.",
+    "success": {
+      "title": "Überprüfen Sie Ihre E-Mail",
+      "bodyPart1": "Wir haben einen Link zum Zurücksetzen des Passworts an",
+      "bodyPart2": " gesendet. Bitte überprüfen Sie Ihren Posteingang, um Ihr Passwort zurückzusetzen.",
+      "backToSignIn": "Zurück zur Anmeldung"
+    },
+    "form": {
+      "label": {
+        "email": "E-Mail"
+      },
+      "button": {
+        "sendEmail": "Passwortzurücksetzungs-E-Mail senden",
+        "sending": "Wird gesendet..."
+      },
+      "footer": {
+        "rememberPassword": "Erinnern Sie sich an Ihr Passwort?",
+        "signInLink": "Anmelden"
+      }
+    },
+    "orDivider": "Weitere Anmeldemöglichkeiten",
+    "error": {
+      "tokenGeneration": "Token nicht generiert, versuchen Sie es später erneut.",
+      "generic": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+    }
+  },
+  "subscription": {
+    "title": "Unsere Abonnements",
+    "desc": "Verwalten Sie alle Ihre Abonnements an einem Ort.",
+    "annual": "Jährlich",
+    "monthly": "Monatlich",
+    "getStarted": "Jetzt starten",
+    "currentPlan": "✓ Aktueller Plan"
+  },
+  "purchase": {
+    "tokens": { "title": "Mehr Credits benötigt", "purchase": "Kaufen" },
+    "models": { "title": "Mehr Modelle benötigt", "purchase": "Kaufen" },
+    "checkout": {
+      "errors": {
+        "sessionCreation": "Checkout-Sitzung konnte nicht erstellt werden",
+        "stripeInit": "Stripe nicht initialisiert",
+        "generic": "Fehler beim Stripe-Checkout"
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "subtitle": "Verwalten Sie Ihre Kontoeinstellungen und Sicherheit"
+    },
+    "notificationPreferences": "Benachrichtigungseinstellungen",
+    "profileInfo": {
+      "title": "Profilinformationen",
+      "fields": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "phone": "Telefon",
+        "country": "Land",
+        "languages": "Sprachen",
+        "email": "E-Mail"
+      },
+      "placeholders": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "phone": "Telefon",
+        "country": "Land",
+        "languages": "Sprachen"
+      },
+      "countryOptions": {
+        "us": "Vereinigte Staaten",
+        "uk": "Vereinigtes Königreich",
+        "ca": "Kanada",
+        "au": "Australien",
+        "pk": "Pakistan"
+      },
+      "languageOptions": {
+        "english": "Englisch",
+        "spanish": "Spanisch",
+        "french": "Französisch",
+        "german": "Deutsch",
+        "urdu": "Urdu"
+      }
+    },
+    "companyDetails": {
+      "title": "Unternehmensdetails",
+      "fields": {
+        "companyName": "Firmenname",
+        "companyWebsite": "Firmenwebsite",
+        "companyDescription": "Firmenbeschreibung",
+        "companyIndustry": "Branche",
+        "companyNumber": "Firmennummer"
+      },
+      "placeholders": {
+        "companyName": "Firmenname",
+        "companyWebsite": "Firmenwebsite",
+        "companyDescription": "Firmenbeschreibung",
+        "companyIndustry": "Branche",
+        "companyNumber": "Firmennummer"
+      },
+      "industryOptions": {
+        "technology": "Technologie",
+        "finance": "Finanzen",
+        "healthcare": "Gesundheitswesen",
+        "retail": "Einzelhandel",
+        "manufacturing": "Fertigung"
+      }
+    },
+    "buttons": {
+      "saveChanges": "Änderungen speichern",
+      "saving": "Wird gespeichert..."
+    },
+    "toasts": {
+      "success": "Änderungen erfolgreich gespeichert!",
+      "error": "Änderungen konnten nicht gespeichert werden"
+    }
+  },
+  "user": {
+    "currentSubscription": {
+      "loading": "Abonnementdetails werden geladen...",
+      "header": {
+        "title": "Aktuelles Abonnement",
+        "subtitle": "Verwalten Sie Ihren Plan und Ihre Abrechnung"
+      },
+      "planStatus": {
+        "typeMonthly": "Monatlich",
+        "typeAnnual": "Jährlich",
+        "suffix": "Abonnement",
+        "statusActive": "Aktiv",
+        "statusCanceling": "Wird gekündigt",
+        "planSuffix": "Plan",
+        "cancellationAlert": {
+          "part1": "Ihr Abonnement endet am",
+          "part2": "."
+        }
+      },
+      "details": {
+        "costLabel": "Kosten",
+        "creditsLabel": "Credits",
+        "billingLabel": "Nächste Abrechnung",
+        "notApplicable": "N/V"
+      },
+      "footerInfo": {
+        "title": "Änderungen vornehmen?",
+        "body": "Klicken Sie auf \"Abonnement verwalten\", um Ihren Plan, Ihre Zahlungsmethode zu aktualisieren oder Ihr Abonnement zu kündigen."
+      },
+      "misc": {
+        "intervalMonthly": "Monatlich",
+        "intervalAnnual": "Jährlich",
+        "perYear": "pro Jahr",
+        "perMonth": "pro Monat",
+        "creditsPerYear": "Credits/Jahr",
+        "creditsPerMonth": "Credits/Monat",
+        "agencyPlanTag": "Agenturplan",
+        "modelsUnit": "Modell",
+        "modelsUnitPlural": "Modelle",
+        "whatsIncluded": "Was ist enthalten:",
+        "unitCredits": "Credits",
+        "unitModels": "Modelle"
+      },
+      "buttons": {
+        "manageSubscription": "Abonnement verwalten",
+        "loading": "Wird geladen...",
+        "toast": {
+          "loginRequired": "Sie müssen angemeldet sein, um Ihr Abonnement zu verwalten.",
+          "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+        }
+      }
+    },
+    "transactionHistory": {
+      "header": {
+        "title": "Transaktionsverlauf",
+        "subtitle": "Sehen Sie alle Ihre letzten Zahlungen und Aktivitäten."
+      },
+      "filters": {
+        "title": "Filter",
+        "label": {
+          "invoiceId": "Rechnungs-ID",
+          "email": "E-Mail",
+          "date": "Datum",
+          "description": "Beschreibung",
+          "amount": "Betrag"
+        },
+        "placeholder": {
+          "invoiceId": "Nach Rechnungs-ID suchen",
+          "email": "Nach E-Mail suchen",
+          "selectType": "Typ auswählen",
+          "amount": "Betrag eingeben",
+          "datePicker": "Datum auswählen"
+        },
+        "descriptionOptions": {
+          "all": "Alle",
+          "unused": "Ich nutze es nicht genug",
+          "tooExpensive": "Zu teuer",
+          "switchedService": "Ich bin zu einem anderen Dienst gewechselt",
+          "other": "Sonstiges",
+          "otherWithComment": "Sonstiges: {{comment}}"
+        },
+        "buttons": {
+          "apply": "Filter anwenden",
+          "clear": "Filter löschen"
+        }
+      },
+      "table": {
+        "sectionTitle": "Alle Transaktionen",
+        "header": {
+          "date": "Datum",
+          "invoiceId": "Rechnungs-ID",
+          "email": "E-Mail",
+          "amount": "Betrag",
+          "paymentDetails": "Zahlungsdetails",
+          "tokenExpiry": "Token-Ablauf",
+          "cancelDetail": "Kündigungsdetail",
+          "action": "Aktion"
+        },
+        "emptyValue": "-",
+        "tokenStatus": {
+          "expired": "Abgelaufen"
+        },
+        "loading": {
+          "message": "Transaktionen werden geladen..."
+        },
+        "actionButton": {
+          "generating": "Wird generiert...",
+          "download": "PDF"
+        }
+      }
+    },
+    "dashboard": {
+      "hero": {
+        "title": "WILLKOMMEN BEI MODEL FOR YOU",
+        "subtitle": "Willkommen bei Model For You – Ihrer All-in-One-KI-Plattform zum Erstellen von Videos, Stimmen und Fotos. Entdecken Sie Tools, entfesseln Sie Kreativität und erwecken Sie Ideen mit Magie zum Leben.",
+        "searchPlaceholder": "Brauchen Sie Hilfe? Suchen Sie sofort nach Ihrem Problem"
+      },
+      "recentActivity": {
+        "title": "Letzte Aktivität / Generierung",
+        "description": "Ihre letzten Aktivitäten und Foto-, Video- und Audiogenerierungen erscheinen hier"
+      },
+      "myModels": {
+        "title": "Meine Modelle",
+        "viewAll": "Alle anzeigen",
+        "seeDetails": "Details anzeigen"
+      },
+      "defaultModels": {
+        "title": "Standardmodelle",
+        "viewAll": "Alle anzeigen",
+        "description": "Eine Liste aller Standardmodelle.",
+        "noTags": "Keine Tags",
+        "viewDetails": "Details anzeigen",
+        "addModel": "Dieses Modell hinzufügen",
+        "adding": "Wird hinzugefügt..."
+      }
+    },
+    "myModels": {
+      "title": "Modellverwaltung",
+      "createButton": "Neues Modell erstellen",
+      "description": "Eine Liste aller Ihrer Hauptmodelle.",
+      "noDescription": "Keine Beschreibung verfügbar",
+      "noTags": "Keine Tags",
+      "viewDetails": "Details anzeigen",
+      "viewAll": "Alle anzeigen",
+      "createDialog": {
+        "title": "Modell erstellen",
+        "description": "Füllen Sie die Details aus, um ein neues Modell zu erstellen. Alle Felder sind erforderlich."
+      },
+      "noCredits": {
+        "title": "Keine Modell-Credits",
+        "description": "Sie haben keine Modell-Credits verfügbar.",
+        "button": "Abonnements anzeigen"
+      }
+    },
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "generate": "Generieren",
+      "models": "Modelle",
+      "myModels": "Meine Modelle",
+      "subscription": "Abonnement",
+      "transactionHistory": "Transaktionsverlauf",
+      "gallery": "Galerie",
+      "trashBin": "Papierkorb",
+      "header": "Model For You",
+      "mobileMenuTitle": "Benutzermenü"
+    },
+    "gallery": {
+      "title": "Galerie",
+      "searchPlaceholder": "Galerie durchsuchen...",
+      "loading": "Ihre Galerie wird geladen...",
+      "noItems": "Keine Elemente in Ihrer Galerie gefunden.",
+      "sort": {
+        "oldest": "Älteste",
+        "newest": "Neueste"
+      },
+      "pagination": {
+        "showing": "Anzeigen",
+        "to": "bis",
+        "of": "von",
+        "items": "Elementen",
+        "page": "Seite",
+        "previousPage": "Vorherige Seite",
+        "nextPage": "Nächste Seite"
+      },
+      "dialog": {
+        "moveToTrash": "In den Papierkorb verschieben?",
+        "moveToTrashDesc": "Dieses Video wird in den Papierkorb verschoben. Sie können es von dort innerhalb von 30 Tagen wiederherstellen.",
+        "moveToTrashSuccess": "In den Papierkorb verschoben",
+        "cancel": "Abbrechen",
+        "confirm": "In den Papierkorb verschieben",
+        "moving": "Wird verschoben...",
+        "viewMedia": "Medien anzeigen",
+        "prompt": "Eingabeaufforderung"
+      },
+      "loadingMore": "Galerie wird geladen...",
+      "loadMore": "Mehr laden"
+    },
+    "trash": {
+      "title": "Papierkorb",
+      "emptyTrash": "Papierkorb leeren",
+      "searchPlaceholder": "Papierkorb durchsuchen...",
+      "loading": "Papierkorb wird geladen...",
+      "noItems": "Papierkorb ist leer",
+      "itemsInTrash": "im Papierkorb",
+      "emptying": "Wird geleert...",
+      "noResultsFor": "Keine Ergebnisse gefunden für",
+      "table": {
+        "media": "Medien",
+        "type": "Typ",
+        "model": "Modell",
+        "description": "Beschreibung",
+        "dateCreated": "Erstellungsdatum",
+        "restore": "Wiederherstellen",
+        "delete": "Löschen"
+      },
+      "dialog": {
+        "emptyTrash": "Papierkorb leeren?",
+        "emptyTrashDesc": "Sind Sie sicher, dass Sie den Papierkorb leeren möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+        "emptyTrigger": "Papierkorb leeren",
+        "restore": "Wiederherstellen",
+        "deletePermanently": "Dauerhaft löschen",
+        "deleteDesc": "Diese Aktion kann nicht rückgängig gemacht werden. Dies wird das Element dauerhaft löschen.",
+        "restoring": "Wird wiederhergestellt...",
+        "deleting": "Wird gelöscht...",
+        "generationDetails": "Generierungsdetails",
+        "allDeletedWillBeRemoved": "Alle gelöschten Generierungen werden dauerhaft entfernt",
+        "actionCannotBeReversed": "Diese Aktion kann nicht rückgängig gemacht werden",
+        "makeSureYouDontNeed": "Stellen Sie sicher, dass Sie keines dieser Elemente benötigen"
+      },
+      "toasts": {
+        "emptied": "Papierkorb erfolgreich geleert",
+        "restored": "Element erfolgreich wiederhergestellt",
+        "deleted": "Element dauerhaft gelöscht"
+      }
+    },
+    "discarded": {
+      "title": "Verworfene Bilder",
+      "noItems": "Keine verworfenen Bilder gefunden",
+      "watermark": "VERWORFEN",
+      "restore": "Wiederherstellen"
+    }
+  },
+  "admin": {
+    "managePricing": {
+      "subscription": {
+        "header": {
+          "title": "Abonnement-Preiskarten",
+          "addBtn": "Neu hinzufügen"
+        },
+        "table": {
+          "name": "Name",
+          "monthlyPrice": "Monatlicher Preis",
+          "annualPrice": "Jährlicher Preis",
+          "highlighted": "Hervorgehoben",
+          "forAgency": "Für Agentur",
+          "actions": "Aktionen",
+          "noResults": "Keine Ergebnisse"
+        },
+        "dialog": {
+          "createTitle": "Abonnement erstellen",
+          "editTitle": "Abonnement bearbeiten"
+        },
+        "deleteAlert": {
+          "title": "Sind Sie sicher?",
+          "description": "Diese Aktion kann nicht rückgängig gemacht werden. Dies wird das Abonnement dauerhaft löschen.",
+          "cancelBtn": "Abbrechen",
+          "deleteBtn": "Löschen",
+          "deletingBtn": "Wird gelöscht..."
+        },
+        "toasts": {
+          "deleteSuccess": "Abonnementkarte erfolgreich gelöscht",
+          "deleteError": "Fehler beim Löschen der Abonnementkarte"
+        }
+      },
+      "tokens": {
+        "header": {
+          "title": "Zahlungskarten",
+          "addBtn": "Neu hinzufügen"
+        },
+        "table": {
+          "name": "Name",
+          "price": "Preis",
+          "credits": "Credits",
+          "actions": "Aktionen",
+          "noResults": "Keine Ergebnisse"
+        },
+        "dialog": {
+          "createTitle": "Zahlungskarte erstellen",
+          "editTitle": "Zahlungskarte bearbeiten"
+        },
+        "deleteAlert": {
+          "title": "Sind Sie sicher?",
+          "description": "Diese Aktion kann nicht rückgängig gemacht werden. Dies wird die Zahlungskarte dauerhaft löschen.",
+          "cancelBtn": "Abbrechen",
+          "deleteBtn": "Löschen",
+          "deletingBtn": "Wird gelöscht..."
+        },
+        "toasts": {
+          "deleteSuccess": "Zahlungskarte erfolgreich gelöscht",
+          "deleteError": "Fehler beim Löschen der Zahlungskarte"
+        }
+      },
+      "models": {
+        "header": {
+          "title": "Modellkarten",
+          "addBtn": "Neu hinzufügen"
+        },
+        "table": {
+          "name": "Name",
+          "price": "Preis",
+          "quantity": "Menge",
+          "actions": "Aktionen",
+          "noResults": "Keine Ergebnisse"
+        },
+        "dialog": {
+          "createTitle": "Modellkarte erstellen",
+          "editTitle": "Modellkarte bearbeiten"
+        },
+        "deleteAlert": {
+          "title": "Sind Sie sicher?",
+          "description": "Diese Aktion kann nicht rückgängig gemacht werden. Dies wird die Modellkarte dauerhaft löschen.",
+          "cancelBtn": "Abbrechen",
+          "deleteBtn": "Löschen",
+          "deletingBtn": "Wird gelöscht..."
+        },
+        "toasts": {
+          "deleteSuccess": "Modellkarte erfolgreich gelöscht",
+          "deleteError": "Fehler beim Löschen der Modellkarte"
+        }
+      }
+    },
+    "usersManagement": {
+      "title": "Benutzer hinzufügen",
+      "placeholder": "Nach Name oder E-Mail suchen",
+      "table": {
+        "header": {
+          "username": "Benutzername",
+          "email": "E-Mail",
+          "status": "Status",
+          "role": "Rolle",
+          "tokensRemaining": "Verbleibende Tokens",
+          "modelsRemaining": "Verbleibende Modelle",
+          "createdAt": "Erstellt am",
+          "actions": "Aktionen"
+        },
+        "statusLabels": {
+          "approved": "Genehmigt",
+          "blocked": "Blockiert",
+          "pending": "Ausstehend"
+        },
+        "roleLabels": {
+          "admin": "Administrator",
+          "user": "Benutzer",
+          "guest": "Gast"
+        },
+        "emptyState": {
+          "title": "Keine Benutzer gefunden",
+          "description": "Es gibt keinen Benutzer in der Tabelle, bitte fügen Sie einen neuen Benutzer hinzu."
+        }
+      },
+      "form": {
+        "fields": {
+          "displayName": {
+            "label": "Anzeigename",
+            "placeholder": "Benutzernamen eingeben"
+          },
+          "email": {
+            "label": "E-Mail",
+            "placeholder": "E-Mail-Adresse eingeben"
+          },
+          "password": {
+            "label": "Passwort",
+            "placeholder": "Passwort eingeben"
+          },
+          "role": {
+            "label": "Rolle",
+            "placeholder": "Rolle auswählen",
+            "admin": "Administrator",
+            "user": "Benutzer",
+            "agency": "Agentur"
+          },
+          "status": {
+            "label": "Status",
+            "placeholder": "Status auswählen",
+            "pending": "Ausstehend",
+            "approved": "Genehmigen",
+            "suspended": "Sperren",
+            "blocked": "Blockieren"
+          },
+          "credits": {
+            "label": "Credits",
+            "placeholder": "Anzahl der Credits eingeben",
+            "hoverContent": "Administratoren können nur Bonus-Credits hinzufügen. Sie können die Anzahl der ursprünglich vom Benutzer gekauften Credits nicht ändern."
+          }
+        },
+        "buttons": {
+          "submitCreate": "Absenden",
+          "submitEdit": "Änderungen speichern",
+          "loading": "Wird geladen..."
+        }
+      }
+    },
+    "dashboard": {
+      "header": {
+        "title": "Willkommen zurück, {{name}}",
+        "subtitle": "Überwachen Sie Plattformaktivitäten, Benutzerengagement und Systemleistung",
+        "tokens": "{{count}} Tokens"
+      },
+      "platformOverview": {
+        "title": "Plattformübersicht",
+        "totalUsers": {
+          "label": "Gesamtbenutzer",
+          "desc": "Registrierte Plattformbenutzer"
+        },
+        "totalTokens": {
+          "label": "Gesamt-Tokens",
+          "desc": "Über die Plattform verteilte Tokens"
+        },
+        "revenue": {
+          "label": "Umsatz",
+          "desc": "Aus Abonnements und Käufen"
+        }
+      },
+      "subModelStats": {
+        "title": "Untermodell-Statistiken",
+        "total": {
+          "label": "Gesamt-Untermodelle",
+          "desc": "Verfügbare Basis-Untermodelle"
+        },
+        "pending": {
+          "label": "Ausstehende Anfragen",
+          "desc": "Untermodelle, die auf Training warten"
+        },
+        "trained": {
+          "label": "Trainierte Modelle",
+          "desc": "Erfolgreich geklonte Untermodelle"
+        }
+      },
+      "generationActivity": {
+        "title": "Generierungsaktivität",
+        "photos": {
+          "label": "Generierte Fotos",
+          "desc": "Gesamt KI-generierte Fotos"
+        },
+        "videos": {
+          "label": "Generierte Videos",
+          "desc": "Gesamt KI-generierte Videos"
+        }
+      },
+      "accountDetails": {
+        "title": "Administrator-Konto",
+        "subtitle": "Ihre Administrator-Profilinformationen",
+        "fullName": "Vollständiger Name",
+        "email": "E-Mail-Adresse",
+        "tokenBalance": "Token-Guthaben"
+      }
+    }
+  },
+  "landingPage": {
+    "hero": {
+      "title": "Benutzerdefinierte Fotos, Videos und Sprachnachrichten — Powered by AI",
+      "subtitle": "Erstellen und verwalten Sie KI-Modelle, um benutzerdefinierte Fotos, Videos und sinnliche Sprachnachrichten zu generieren. Seien Sie der Erste, der Zugang erhält.",
+      "getStarted": "Jetzt starten",
+      "badges": {
+        "noSpam": "Kein Spam, jederzeit abmelden",
+        "secure": "Privat & sicher",
+        "perks": "Vorteile für Erstanwender"
+      }
+    },
+    "cta": {
+      "title": "Bereit, Ihre digitale Präsenz auf die nächste Stufe zu heben?",
+      "subtitle": "Kontaktieren Sie uns noch heute und entdecken Sie, wie intelligente, anpassbare KI-Modelle Ihren Workflow transformieren, Ihr kreatives Potenzial verstärken, sich wiederholende Aufgaben rationalisieren und Sie befähigen können, Ihre persönlichen Ziele zu erreichen.",
+      "button": "Jetzt starten"
+    },
+    "features": {
+      "title": "Leistungsstarke Funktionen, die Ihr Erlebnis verbessern",
+      "subtitle": "Entdecken Sie eine Suite leistungsstarker, benutzerfreundlicher Funktionen, die entwickelt wurden, um Ihre Produktivität zu steigern, Ihren Workflow zu optimieren und außergewöhnliche Ergebnisse zu liefern – egal ob Sie alleine oder im Team arbeiten.",
+      "list": {
+        "cloning": {
+          "title": "Modelle klonen",
+          "desc": "Laden Sie echte Fotos hoch, um ein Modell zu klonen, oder generieren Sie eine vollständig synthetische Persona, die nicht existiert."
+        },
+        "agency": {
+          "title": "Agenturpläne",
+          "desc": "Wechseln Sie zwischen mehreren Modellen innerhalb eines Kontos. Ideal für Teams & Agenturen."
+        },
+        "photoVideo": {
+          "title": "Foto + Video generieren",
+          "desc": "Laden Sie echte Fotos hoch, um ein Modell zu klonen, oder generieren Sie eine vollständig synthetische Persona, die nicht existiert."
+        },
+        "gallery": {
+          "title": "Galerie",
+          "desc": "Laden Sie echte Fotos hoch, um ein Modell zu klonen, oder generieren Sie eine vollständig synthetische Persona, die nicht existiert."
+        },
+        "voice": {
+          "title": "Sprachnachrichten",
+          "desc": "Laden Sie echte Fotos hoch, um ein Modell zu klonen, oder generieren Sie eine vollständig synthetische Persona, die nicht existiert."
+        },
+        "video": {
+          "title": "Video generieren",
+          "desc": "Laden Sie echte Fotos hoch, um ein Modell zu klonen, oder generieren Sie eine vollständig synthetische Persona, die nicht existiert."
+        },
+        "download": {
+          "title": "Herunterladen & Exportieren",
+          "desc": "Laden Sie echte Fotos hoch, um ein Modell zu klonen, oder generieren Sie eine vollständig synthetische Persona, die nicht existiert."
+        },
+        "platform": {
+          "title": "Modellkarte & Plattform",
+          "desc": "Laden Sie echte Fotos hoch, um ein Modell zu klonen, oder generieren Sie eine vollständig synthetische Persona, die nicht existiert."
+        },
+        "secure": {
+          "title": "Privat & Sicher",
+          "desc": "Laden Sie echte Fotos hoch, um ein Modell zu klonen, oder generieren Sie eine vollständig synthetische Persona, die nicht existiert."
+        }
+      }
+    },
+    "steps": {
+      "badge": "Einfacher Prozess",
+      "title": "So funktioniert es:",
+      "subtitle": "Schritt-für-Schritt-Prozess",
+      "description": "Verwandeln Sie Ihre Ideen mit unserem optimierten Fünf-Schritte-Prozess in die Realität. Von der Anmeldung bis zur Feier haben wir es mühelos gemacht.",
+      "list": {
+        "signup": {
+          "title": "Registrieren / Anmelden",
+          "desc": "Erstellen Sie Ihr Konto in Sekunden und legen Sie los"
+        },
+        "create": {
+          "title": "Erstellen Sie Ihr Modell",
+          "desc": "Laden Sie Ihre KI-Modellpräferenzen hoch und passen Sie sie an"
+        },
+        "generate": {
+          "title": "Generieren",
+          "desc": "Sehen Sie zu, wie KI Ihre kreative Vision zum Leben erweckt"
+        },
+        "export": {
+          "title": "Exportieren & Fertig",
+          "desc": "Sofort in Ihrem bevorzugten Format herunterladen"
+        },
+        "enjoy": {
+          "title": "Genießen Sie es",
+          "desc": "Teilen und feiern Sie Ihre endgültige Kreation"
+        }
+      },
+      "button": "Jetzt starten"
+    },
+    "carousel": {
+      "title": "Entdecken Sie unsere atemberaubenden visuellen Kreationen",
+      "subtitle": "Durchsuchen Sie eine kuratierte Sammlung atemberaubender Visuals, Modellausgaben und kreativer Momente – die das volle Potenzial unserer Plattform und die Schönheit jedes generierten Ergebnisses in lebendigen Details zeigen.",
+      "items": {
+        "anime": "Anime-Charakterillustration",
+        "cat": "Katze mit Gitarre",
+        "portrait": "Porträtfotografie",
+        "yinyang": "Yin-Yang-Kunstwerk",
+        "abstract": "Abstrakte Kunst"
+      }
+    },
+    "faq": {
+      "title": "Finden Sie Antworten auf häufig gestellte Fragen hier",
+      "subtitle": "Entdecken Sie eine Suite leistungsstarker, benutzerfreundlicher Funktionen, die entwickelt wurden, um Ihre Produktivität zu steigern, Ihren Workflow zu optimieren und außergewöhnliche Ergebnisse zu liefern – egal ob Sie alleine oder im Team arbeiten.",
+      "list": {
+        "q1": {
+          "q": "Wofür kann ich die KI-Modelle verwenden?",
+          "a": "Unsere KI-Modelle können für eine Vielzahl von Aufgaben verwendet werden, einschließlich Inhaltserstellung, Datenanalyse, Bilderstellung, Code-Unterstützung, Schreibunterstützung, Forschung, Brainstorming und vieles mehr. Egal, ob Sie an kreativen Projekten, Geschäftsanwendungen oder persönlichen Aufgaben arbeiten, unsere Modelle sind darauf ausgelegt, sich an Ihre spezifischen Bedürfnisse anzupassen."
+        },
+        "q2": {
+          "q": "Benötige ich technische Fähigkeiten, um es zu verwenden?",
+          "a": "Keine technischen Fähigkeiten erforderlich! Unsere Plattform ist benutzerfreundlich und für jeden zugänglich. Beschreiben Sie einfach in einfacher Sprache, was Sie erreichen möchten, und die KI wird Sie verstehen und unterstützen. Technisches Wissen kann Ihnen jedoch helfen, erweiterte Funktionen und Möglichkeiten zu nutzen."
+        },
+        "q3": {
+          "q": "Sind meine Daten privat und sicher?",
+          "a": "Ja, wir nehmen Datenschutz und Sicherheit sehr ernst. Ihre Gespräche und Daten sind verschlüsselt, und wir befolgen branchenübliche Sicherheitspraktiken. Wir verkaufen Ihre persönlichen Informationen nicht an Dritte. Bitte lesen Sie unsere Datenschutzrichtlinie für detaillierte Informationen darüber, wie wir Ihre Daten handhaben und schützen."
+        },
+        "q4": {
+          "q": "Kann ich die Persönlichkeit der KI anpassen?",
+          "a": "Ja, Sie können anpassen, wie die KI auf Sie reagiert. Sie können Präferenzen für Ton, Formalitätsstufe, Antwortlänge und Kommunikationsstil festlegen. Einige Pläne bieten auch erweiterte Anpassungsoptionen, bei denen Sie spezifische Personas erstellen oder das Verhalten der KI an Ihren Workflow und Ihre Präferenzen anpassen können."
+        },
+        "q5": {
+          "q": "In welchen Formaten kann ich Inhalte exportieren?",
+          "a": "Sie können Inhalte in mehreren Formaten exportieren, einschließlich Klartext (.txt), Markdown (.md), PDF, Word-Dokumenten (.docx), HTML und mehr. Die verfügbaren Exportoptionen können je nach Art des Inhalts und Ihrem Abonnementplan variieren. Sie können Inhalte auch direkt in Ihre Zwischenablage kopieren, um sie einfach einzufügen."
+        },
+        "q6": {
+          "q": "Kann ich die KI-generierten Inhalte verwenden?",
+          "a": "Ja, Sie können KI-generierte Inhalte für Ihre Projekte verwenden. Wir empfehlen jedoch, die Inhalte zu überprüfen und zu bearbeiten, um sicherzustellen, dass sie Ihren spezifischen Anforderungen und Standards entsprechen. Während Sie Rechte zur Nutzung der Ausgabe haben, sollten Sie sich bewusst sein, dass KI-generierte Inhalte möglicherweise nicht in allen Rechtsordnungen urheberrechtlich geschützt sind. Überprüfen Sie immer sachliche Informationen und stellen Sie die Einhaltung relevanter Vorschriften sicher."
+        },
+        "q7": {
+          "q": "Gibt es ein Limit für die Generierung?",
+          "a": "Nutzungslimits hängen von Ihrem Abonnementplan ab. Kostenlose Pläne haben in der Regel tägliche oder monatliche Limits für die Anzahl der Anfragen oder Tokens, die Sie verwenden können. Bezahlte Pläne bieten höhere Limits oder unbegrenzte Nutzung. Sie können Ihre aktuelle Nutzung und Limits in Ihrem Konto-Dashboard überprüfen. Wenn Sie Ihr Limit erreichen, können Sie Ihren Plan upgraden oder warten, bis Ihr Kontingent zurückgesetzt wird."
+        }
+      }
+    }
+  },
+  "generate": {
+    "title": "KI-Inhaltsgenerator",
+    "description": "Wählen Sie Ihren Inhaltstyp, wählen Sie einen Avatar und geben Sie eine Eingabeaufforderung ein, um mit der Generierung zu beginnen.",
+    "tabs": {
+      "photo": "Foto",
+      "video": "Video",
+      "audio": "Audio"
+    },
+    "avatarSection": {
+      "title": "Wählen Sie Ihren KI-Avatar",
+      "selected": "(Ausgewählt: {{name}})",
+      "defaultBadge": "STANDARD"
+    },
+    "promptSection": {
+      "title": "Beschreiben Sie den Inhalt",
+      "noAvatarTitle": "Kein Avatar ausgewählt",
+      "noAvatarDescription": "Bitte wählen Sie einen KI-Avatar aus dem Karussell oben aus, um fortzufahren."
+    }
+  }
+}

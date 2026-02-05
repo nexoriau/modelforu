@@ -1,0 +1,827 @@
+{
+  "navbar": {
+    "home": "Home",
+    "product": "Product",
+    "pricing": "Pricing",
+    "login": "Login",
+    "signUp": "Sign Up",
+    "searchTasks": "Search Tasks",
+    "authButtons": {
+      "credits": "Credits",
+      "remainingModels": "Remaining Models",
+      "dashboard": "Dashboard",
+      "profile": "Profile",
+      "pricing": "Pricing",
+      "managePricing": "Manage Pricing",
+      "logout": "Logout"
+    },
+    "menu": "Menu",
+    "navigation": "Navigation",
+    "language": "Language",
+    "helpCenter": "Help Center",
+    "account": "Account",
+    "copyright": "© 2026 Model For You. All rights reserved."
+  },
+  "footer": {
+    "copyright": "Copyright ©",
+    "companyName": "Model For You",
+    "allRightsReserved": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, we couldn't find the page you're looking for. It might have been moved, deleted, or never existed.",
+    "goHome": "Go to Homepage"
+  },
+  "commonNotFound": {
+    "noDataTitle": "No Data Available",
+    "noDataDescription": "The data currently holds no matching records.",
+    "noCollectionFound": "No {collection} found.",
+    "getStarted": "Get started by creating a new {collection}."
+  },
+  "signup": {
+    "title": "Welcome To Model For You",
+    "subtitle": "Get started - it’s free. No credit card needed.",
+    "accountType": {
+      "personal": "Personal",
+      "agency": "Agency"
+    },
+    "form": {
+      "label": {
+        "fullName": "Full Name",
+        "agencyName": "Agency Name",
+        "email": "Email",
+        "password": "Password"
+      },
+      "button": {
+        "createAccount": "Create Account",
+        "creating": "Creating..."
+      },
+      "footer": {
+        "alreadyHaveAccount": "Already have an account?",
+        "signInLink": "Sign in"
+      }
+    },
+    "successMessage": {
+      "title": "Confirm your email",
+      "bodyPart1": "We’ve sent a verification link to",
+      "bodyPart2": ". Please check your inbox to activate your account.",
+      "backToSignIn": "Back to Sign In"
+    },
+    "error": {
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "signIn": {
+    "title": "Log in to your account",
+    "subtitle": "Get started - it’s free. No credit card needed.",
+    "form": {
+      "label": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "link": {
+        "forgotPassword": "Forgot Password?"
+      },
+      "button": {
+        "login": "Login",
+        "signingIn": "Signing in..."
+      },
+      "footer": {
+        "noAccount": "Don’t have an account?",
+        "signUpLink": "Sign up"
+      }
+    },
+    "error": {
+      "generic": "Something went wrong, please try later."
+    }
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "subtitle": "Enter your email for the password reset process.",
+    "success": {
+      "title": "Check Your Email",
+      "bodyPart1": "We’ve sent a password reset link to",
+      "bodyPart2": ". Please check your inbox to reset your password.",
+      "backToSignIn": "Back to Sign In"
+    },
+    "form": {
+      "label": {
+        "email": "Email"
+      },
+      "button": {
+        "sendEmail": "Send Password Reset Email",
+        "sending": "Sending..."
+      },
+      "footer": {
+        "rememberPassword": "Remember your password?",
+        "signInLink": "Sign in"
+      }
+    },
+    "orDivider": "More Ways to Log in",
+    "error": {
+      "tokenGeneration": "Token not generated, try later.",
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "subscription": {
+    "title": "Our Subscriptions",
+    "desc": "Manage all your subscriptions in one place.",
+    "annual": "Annual",
+    "monthly": "Monthly",
+    "getStarted": "Get Started",
+    "currentPlan": "✓ Current Plan"
+  },
+  "purchase": {
+    "tokens": { "title": "Need More Credits", "purchase": "Purchase" },
+    "models": { "title": "Need More Models", "purchase": "Purchase" },
+    "checkout": {
+      "errors": {
+        "sessionCreation": "Failed to create checkout session",
+        "stripeInit": "Stripe not initialized",
+        "generic": "Error while stripe checkout"
+      }
+    }
+  },
+  "profile": {
+    "header": {
+      "subtitle": "Manage your account settings and security"
+    },
+    "notificationPreferences": "Notification Preferences",
+    "profileInfo": {
+      "title": "Profile Information",
+      "fields": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "phone": "Phone",
+        "country": "Country",
+        "languages": "Languages",
+        "email": "Email"
+      },
+      "placeholders": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "phone": "Phone",
+        "country": "Country",
+        "languages": "Languages"
+      },
+      "countryOptions": {
+        "us": "United States",
+        "uk": "United Kingdom",
+        "ca": "Canada",
+        "au": "Australia",
+        "pk": "Pakistan"
+      },
+      "languageOptions": {
+        "english": "English",
+        "spanish": "Spanish",
+        "french": "French",
+        "german": "German",
+        "urdu": "Urdu"
+      }
+    },
+    "companyDetails": {
+      "title": "Company Details",
+      "fields": {
+        "companyName": "Company Name",
+        "companyWebsite": "Company Website",
+        "companyDescription": "Company Description",
+        "companyIndustry": "Company Industry",
+        "companyNumber": "Company Number"
+      },
+      "placeholders": {
+        "companyName": "Company Name",
+        "companyWebsite": "Company Website",
+        "companyDescription": "Company Description",
+        "companyIndustry": "Company Industry",
+        "companyNumber": "Company Number"
+      },
+      "industryOptions": {
+        "technology": "Technology",
+        "finance": "Finance",
+        "healthcare": "Healthcare",
+        "retail": "Retail",
+        "manufacturing": "Manufacturing"
+      }
+    },
+    "buttons": {
+      "saveChanges": "Save Changes",
+      "saving": "Saving..."
+    },
+    "toasts": {
+      "success": "Changes saved successfully!",
+      "error": "Failed to save changes"
+    }
+  },
+  "user": {
+    "currentSubscription": {
+      "loading": "Loading subscription details...",
+      "header": {
+        "title": "Current Subscription",
+        "subtitle": "Manage your plan and billing"
+      },
+      "planStatus": {
+        "typeMonthly": "Monthly",
+        "typeAnnual": "Annual",
+        "suffix": "Subscription",
+        "statusActive": "Active",
+        "statusCanceling": "Canceling",
+        "planSuffix": "Plan",
+        "cancellationAlert": {
+          "part1": "Your subscription will end on",
+          "part2": "."
+        }
+      },
+      "details": {
+        "costLabel": "Cost",
+        "creditsLabel": "Credits",
+        "billingLabel": "Next Billing",
+        "notApplicable": "N/A"
+      },
+      "footerInfo": {
+        "title": "Need to make changes?",
+        "body": "Click “Manage Subscription” to update your plan, payment method, or cancel your subscription."
+      },
+      "misc": {
+        "intervalMonthly": "Monthly",
+        "intervalAnnual": "Annual",
+        "perYear": "per year",
+        "perMonth": "per month",
+        "creditsPerYear": "credits/year",
+        "creditsPerMonth": "credits/month",
+        "agencyPlanTag": "Agency Plan",
+        "modelsUnit": "Model",
+        "modelsUnitPlural": "Models",
+        "whatsIncluded": "What's included:",
+        "unitCredits": "credits",
+        "unitModels": "models"
+      },
+      "buttons": {
+        "manageSubscription": "Manage Subscription",
+        "loading": "Loading...",
+        "toast": {
+          "loginRequired": "You must be logged in to manage your subscription.",
+          "error": "An error occurred. Please try again."
+        }
+      }
+    },
+    "transactionHistory": {
+      "header": {
+        "title": "Transaction History",
+        "subtitle": "View all your recent payments and activities."
+      },
+      "filters": {
+        "title": "Filters",
+        "label": {
+          "invoiceId": "Invoice ID",
+          "email": "Email",
+          "date": "Date",
+          "description": "Description",
+          "amount": "Amount"
+        },
+        "placeholder": {
+          "invoiceId": "Search by Invoice ID",
+          "email": "Search By Email",
+          "selectType": "Select Type",
+          "amount": "Enter Amount",
+          "datePicker": "Pick a date"
+        },
+        "descriptionOptions": {
+          "all": "All",
+          "unused": "I don’t use it enough",
+          "tooExpensive": "Too expensive",
+          "switchedService": "I switched to a different service",
+          "other": "Other",
+          "otherWithComment": "Other: {{comment}}"
+        },
+        "buttons": {
+          "apply": "Apply Filters",
+          "clear": "Clear Filters"
+        }
+      },
+      "table": {
+        "sectionTitle": "All Transactions",
+        "header": {
+          "date": "Date",
+          "invoiceId": "Invoice ID",
+          "email": "Email",
+          "amount": "Amount",
+          "paymentDetails": "Payment Details",
+          "tokenExpiry": "Token Expiry",
+          "cancelDetail": "Cancel Detail",
+          "action": "Action"
+        },
+        "emptyValue": "-",
+        "tokenStatus": {
+          "expired": "Expired"
+        },
+        "loading": {
+          "message": "Loading transactions..."
+        },
+        "actionButton": {
+          "generating": "Generating...",
+          "download": "PDF"
+        }
+      }
+    },
+    "dashboard": {
+      "hero": {
+        "title": "WELCOME TO MODEL FOR YOU",
+        "subtitle": "Welcome to Model For You – your all-in-one AI platform for creating videos, voices, and photos. Explore tools, unleash creativity, and bring ideas to life with magic.",
+        "searchPlaceholder": "Need Help? Search your problem instantly"
+      },
+      "recentActivity": {
+        "title": "Recent Activity / Generation",
+        "description": "Your Recent Activity and photo video and audio generation Appear Here"
+      },
+      "myModels": {
+        "title": "My Models",
+        "viewAll": "View All",
+        "seeDetails": "See Details"
+      },
+      "defaultModels": {
+        "title": "Default Models",
+        "viewAll": "View All",
+        "description": "A list of all default models.",
+        "noTags": "No tags",
+        "viewDetails": "View Details",
+        "addModel": "Add this model",
+        "adding": "Adding..."
+      }
+    },
+    "myModels": {
+      "title": "Model Management",
+      "createButton": "Create New Model",
+      "description": "A list of all your main models.",
+      "noDescription": "No description available",
+      "noTags": "No tags",
+      "viewDetails": "View Details",
+      "viewAll": "View All",
+      "createDialog": {
+        "title": "Create Model",
+        "description": "Fill in the details to create a new model. All fields are required."
+      },
+      "noCredits": {
+        "title": "No Model Credits",
+        "description": "You don’t have any model credits available.",
+        "button": "View Subscriptions"
+      }
+    },
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "generate": "Generate",
+      "models": "Models",
+      "myModels": "My Models",
+      "subscription": "Subscription",
+      "transactionHistory": "Transaction History",
+      "gallery": "Gallery",
+      "trashBin": "Trash Bin",
+      "header": "Model For You",
+      "mobileMenuTitle": "User Menu"
+    },
+    "gallery": {
+      "title": "Gallery",
+      "searchPlaceholder": "Search gallery...",
+      "loading": "Loading your gallery...",
+      "noItems": "No items found in your gallery.",
+      "sort": {
+        "oldest": "Oldest",
+        "newest": "Newest"
+      },
+      "pagination": {
+        "showing": "Showing",
+        "to": "to",
+        "of": "of",
+        "items": "items",
+        "page": "Page",
+        "previousPage": "Previous page",
+        "nextPage": "Next page"
+      },
+      "dialog": {
+        "moveToTrash": "Move to Trash?",
+        "moveToTrashDesc": "This {{mediaType}} will be moved to the Trash bin. You can restore it from there within 10 days.",
+        "moveToTrashSuccess": "Moved to trash",
+        "cancel": "Cancel",
+        "confirm": "Move to Trash",
+        "moving": "Moving...",
+        "viewMedia": "View Media",
+        "prompt": "Prompt",
+        "model": "Model",
+        "date": "Date"
+      },
+      "loadingMore": "Loading gallery...",
+      "loadMore": "Load More"
+    },
+    "trash": {
+      "title": "Trash Bin",
+      "emptyTrash": "Empty Trash",
+      "searchPlaceholder": "Search trash...",
+      "loading": "Loading trash...",
+      "noItems": "Trash is empty",
+      "itemsInTrash": "in trash",
+      "emptying": "Emptying...",
+      "noResultsFor": "No results found for",
+      "table": {
+        "media": "Media",
+        "type": "Type",
+        "model": "Model",
+        "description": "Description",
+        "dateCreated": "Date Created",
+        "restore": "Restore",
+        "delete": "Delete"
+      },
+      "dialog": {
+        "emptyTrash": "Empty Trash?",
+        "emptyTrashDesc": "Are you sure you want to empty the trash? This action cannot be undone.",
+        "emptyTrigger": "Empty Trash",
+        "restore": "Restore",
+        "deletePermanently": "Delete Permanently",
+        "deleteDesc": "This action cannot be undone. This will permanently delete the item.",
+        "restoring": "Restoring...",
+        "deleting": "Deleting...",
+        "generationDetails": "Generation Details",
+        "allDeletedWillBeRemoved": "All deleted generations will be removed permanently",
+        "actionCannotBeReversed": "This action cannot be reversed",
+        "makeSureYouDontNeed": "Make sure you don't need any of these items"
+      },
+      "toasts": {
+        "emptied": "Trash emptied successfully",
+        "restored": "Item restored successfully",
+        "deleted": "Item deleted permanently"
+      }
+    },
+    "discarded": {
+      "title": "Discarded Images",
+      "noItems": "No discarded images found",
+      "watermark": "DISCARDED",
+      "restore": "Restore"
+    }
+  },
+  "admin": {
+    "managePricing": {
+      "subscription": {
+        "header": {
+          "title": "Subscription Pricing Cards",
+          "addBtn": "Add New"
+        },
+        "table": {
+          "name": "Name",
+          "monthlyPrice": "Monthly Price",
+          "annualPrice": "Annual Price",
+          "highlighted": "Highlighted",
+          "forAgency": "For Agency",
+          "actions": "Actions",
+          "noResults": "No Results"
+        },
+        "dialog": {
+          "createTitle": "Create Subscription",
+          "editTitle": "Edit Subscription"
+        },
+        "deleteAlert": {
+          "title": "Are you sure?",
+          "description": "This action cannot be undone. This will permanently delete the subscription.",
+          "cancelBtn": "Cancel",
+          "deleteBtn": "Delete",
+          "deletingBtn": "Deleting..."
+        },
+        "toasts": {
+          "deleteSuccess": "Subscription card deleted successfully",
+          "deleteError": "Error deleting subscription card"
+        }
+      },
+      "tokens": {
+        "header": {
+          "title": "Payment Cards",
+          "addBtn": "Add New"
+        },
+        "table": {
+          "name": "Name",
+          "price": "Price",
+          "credits": "Credits",
+          "actions": "Actions",
+          "noResults": "No Results"
+        },
+        "dialog": {
+          "createTitle": "Create Payment Card",
+          "editTitle": "Edit Payment Card"
+        },
+        "deleteAlert": {
+          "title": "Are you sure?",
+          "description": "This action cannot be undone. This will permanently delete the payment card.",
+          "cancelBtn": "Cancel",
+          "deleteBtn": "Delete",
+          "deletingBtn": "Deleting..."
+        },
+        "toasts": {
+          "deleteSuccess": "Payment Card deleted successfully",
+          "deleteError": "Error deleting payment card"
+        }
+      },
+      "models": {
+        "header": {
+          "title": "Model Cards",
+          "addBtn": "Add New"
+        },
+        "table": {
+          "name": "Name",
+          "price": "Price",
+          "quantity": "Quantity",
+          "actions": "Actions",
+          "noResults": "No Results"
+        },
+        "dialog": {
+          "createTitle": "Create Model Card",
+          "editTitle": "Edit Model Card"
+        },
+        "deleteAlert": {
+          "title": "Are you sure?",
+          "description": "This action cannot be undone. This will permanently delete the model card.",
+          "cancelBtn": "Cancel",
+          "deleteBtn": "Delete",
+          "deletingBtn": "Deleting..."
+        },
+        "toasts": {
+          "deleteSuccess": "Model Card deleted successfully",
+          "deleteError": "Error deleting model card"
+        }
+      }
+    },
+    "usersManagement": {
+      "title": "Add User",
+      "placeholder": "Search by name or email",
+      "table": {
+        "header": {
+          "username": "Username",
+          "email": "Email",
+          "status": "Status",
+          "role": "Role",
+          "tokensRemaining": "Tokens Remaining",
+          "modelsRemaining": "Models Remaining",
+          "createdAt": "Created At",
+          "actions": "Actions"
+        },
+        "statusLabels": {
+          "approved": "Approved",
+          "blocked": "Blocked",
+          "pending": "Pending"
+        },
+        "roleLabels": {
+          "admin": "Admin",
+          "user": "User",
+          "guest": "Guest"
+        },
+        "emptyState": {
+          "title": "No Users Found",
+          "description": "There is no user in the table, please add a new user."
+        }
+      },
+      "form": {
+        "fields": {
+          "displayName": {
+            "label": "Display Name",
+            "placeholder": "Enter user's name"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "Enter email address"
+          },
+          "password": {
+            "label": "Password",
+            "placeholder": "Enter password"
+          },
+          "role": {
+            "label": "Role",
+            "placeholder": "Select a role",
+            "admin": "Admin",
+            "user": "User",
+            "agency": "Agency"
+          },
+          "status": {
+            "label": "Status",
+            "placeholder": "Select a status",
+            "pending": "Pending",
+            "approved": "Approve",
+            "suspended": "Suspend",
+            "blocked": "Block"
+          },
+          "credits": {
+            "label": "Credits",
+            "placeholder": "Enter number of credits",
+            "hoverContent": "Admins can only add bonus credits. They cannot change the amount of credits originally purchased by the user."
+          }
+        },
+        "buttons": {
+          "submitCreate": "Submit",
+          "submitEdit": "Save Changes",
+          "loading": "Loading..."
+        }
+      }
+    },
+    "dashboard": {
+      "header": {
+        "title": "Welcome back, {{name}}",
+        "subtitle": "Monitor platform activity, user engagement, and system performance",
+        "tokens": "{{count}} tokens"
+      },
+      "platformOverview": {
+        "title": "Platform Overview",
+        "totalUsers": {
+          "label": "Total Users",
+          "desc": "Registered platform users"
+        },
+        "totalTokens": {
+          "label": "Total Tokens",
+          "desc": "Tokens distributed across platform"
+        },
+        "revenue": {
+          "label": "Revenue",
+          "desc": "From subscriptions and purchases"
+        }
+      },
+      "subModelStats": {
+        "title": "Sub-Model Statistics",
+        "total": {
+          "label": "Total Sub-Models",
+          "desc": "Base Sub-Models available"
+        },
+        "pending": {
+          "label": "Pending Requests",
+          "desc": "Sub-models awaiting training"
+        },
+        "trained": {
+          "label": "Trained Models",
+          "desc": "Successfully cloned sub-models"
+        }
+      },
+      "generationActivity": {
+        "title": "Generation Activity",
+        "photos": {
+          "label": "Photos Generated",
+          "desc": "Total AI-generated photos"
+        },
+        "videos": {
+          "label": "Videos Generated",
+          "desc": "Total AI-generated videos"
+        }
+      },
+      "accountDetails": {
+        "title": "Admin Account",
+        "subtitle": "Your administrator profile information",
+        "fullName": "Full Name",
+        "email": "Email Address",
+        "tokenBalance": "Token Balance"
+      }
+    }
+  },
+  "landingPage": {
+    "hero": {
+      "title": "Custom Photos, Videos, and Voice Messages — Powered by AI",
+      "subtitle": "Build and manage AI models to generate custom photos, videos, and sensual voice messages. Be first to get access.",
+      "getStarted": "Get Started",
+      "badges": {
+        "noSpam": "No spam, unsubscribe anytime",
+        "secure": "Private & secure",
+        "perks": "Early adopter perks"
+      }
+    },
+    "cta": {
+      "title": "Ready to take your digital presence to the next level?",
+      "subtitle": "Reach out today and discover how intelligent customizable AI models can transform your workflow, amplify your creative potential, streamline repetitive tasks, and empower you to achieve your personal goals.",
+      "button": "Get Started"
+    },
+    "features": {
+      "title": "Powerful Features That Elevate Your Experience",
+      "subtitle": "Discover a suite of powerful, easy-to-use features designed to enhance your productivity, streamline your workflow, and deliver exceptional results—whether you’re working solo or as part of a team.",
+      "list": {
+        "cloning": {
+          "title": "Cloning models",
+          "desc": "Upload real photos to clone a model or generate a fully synthetic persona that doesn't exist."
+        },
+        "agency": {
+          "title": "Agency Plans",
+          "desc": "Switch between multiple models within one account. Ideal for teams & agencies."
+        },
+        "photoVideo": {
+          "title": "Generate Photo + Video",
+          "desc": "Upload real photos to clone a model or generate a fully synthetic persona that doesn't exist."
+        },
+        "gallery": {
+          "title": "Gallery",
+          "desc": "Upload real photos to clone a model or generate a fully synthetic persona that doesn't exist."
+        },
+        "voice": {
+          "title": "Voice Messages",
+          "desc": "Upload real photos to clone a model or generate a fully synthetic persona that doesn't exist."
+        },
+        "video": {
+          "title": "Generate Video",
+          "desc": "Upload real photos to clone a model or generate a fully synthetic persona that doesn't exist."
+        },
+        "download": {
+          "title": "Download & Export",
+          "desc": "Upload real photos to clone a model or generate a fully synthetic persona that doesn't exist."
+        },
+        "platform": {
+          "title": "Model Card & Platform",
+          "desc": "Upload real photos to clone a model or generate a fully synthetic persona that doesn't exist."
+        },
+        "secure": {
+          "title": "Private & Secure",
+          "desc": "Upload real photos to clone a model or generate a fully synthetic persona that doesn't exist."
+        }
+      }
+    },
+    "steps": {
+      "badge": "Simple Process",
+      "title": "How It Works:",
+      "subtitle": "Step-by-Step Process",
+      "description": "Transform your ideas into reality with our streamlined five-step process. From signup to celebration, we’ve made it effortless.",
+      "list": {
+        "signup": {
+          "title": "Sign up / Log in",
+          "desc": "Create your account in seconds and get started"
+        },
+        "create": {
+          "title": "Create Your Model",
+          "desc": "Upload and customize your AI model preferences"
+        },
+        "generate": {
+          "title": "Generate",
+          "desc": "Watch AI bring your creative vision to life"
+        },
+        "export": {
+          "title": "Export & Done",
+          "desc": "Download in your preferred format instantly"
+        },
+        "enjoy": {
+          "title": "Enjoy It",
+          "desc": "Share and celebrate your final creation"
+        }
+      },
+      "button": "Get Started Now"
+    },
+    "carousel": {
+      "title": "Discover Our Stunning Visual Creations",
+      "subtitle": "Browse a curated collection of stunning visuals, model outputs, and creative moments—showcasing the full potential of our platform and the beauty of every generated result in vivid detail.",
+      "items": {
+        "anime": "Anime character illustration",
+        "cat": "Cat with guitar",
+        "portrait": "Portrait photography",
+        "yinyang": "Yin yang artwork",
+        "abstract": "Abstract art"
+      }
+    },
+    "faq": {
+      "title": "Find Answers to Common Questions Here",
+      "subtitle": "Discover a suite of powerful, easy-to-use features designed to enhance your productivity, streamline your workflow, and deliver exceptional results—whether you’re working solo or as part of a team.",
+      "list": {
+        "q1": {
+          "q": "What can I use the AI models for?",
+          "a": "Our AI models can be used for a wide variety of tasks including content generation, data analysis, image creation, code assistance, writing support, research, brainstorming, and much more. Whether you're working on creative projects, business applications, or personal tasks, our models are designed to adapt to your specific needs."
+        },
+        "q2": {
+          "q": "Do I need technical skills to use it?",
+          "a": "No technical skills are required! Our platform is designed to be user-friendly and accessible to everyone. Simply describe what you want to accomplish in plain language, and the AI will understand and assist you. However, having technical knowledge can help you leverage more advanced features and capabilities."
+        },
+        "q3": {
+          "q": "Is my data private and secure?",
+          "a": "Yes, we take data privacy and security very seriously. Your conversations and data are encrypted, and we follow industry-standard security practices. We do not sell your personal information to third parties. Please review our privacy policy for detailed information about how we handle and protect your data."
+        },
+        "q4": {
+          "q": "Can I customize the AI's personality?",
+          "a": "Yes, you can customize how the AI responds to you. You can set preferences for tone, formality level, response length, and communication style. Some plans also offer advanced customization options where you can create specific personas or adjust the AI's behavior to match your workflow and preferences."
+        },
+        "q5": {
+          "q": "What formats can I export content in?",
+          "a": "You can export content in multiple formats including plain text (.txt), Markdown (.md), PDF, Word documents (.docx), HTML, and more. The available export options may vary depending on the type of content and your subscription plan. You can also copy content directly to your clipboard for easy pasting."
+        },
+        "q6": {
+          "q": "Can I use the AI-generated content?",
+          "a": "Yes, you can use AI-generated content for your projects. However, we recommend reviewing and editing the content to ensure it meets your specific needs and standards. While you have rights to use the output, you should be aware that AI-generated content may not be eligible for copyright protection in all jurisdictions. Always verify factual information and ensure compliance with relevant regulations."
+        },
+        "q7": {
+          "q": "Is there a limit to generate?",
+          "a": "Usage limits depend on your subscription plan. Free plans typically have daily or monthly limits on the number of requests or tokens you can use. Paid plans offer higher limits or unlimited usage. You can check your current usage and limits in your account dashboard. If you reach your limit, you can upgrade your plan or wait until your quota resets."
+        }
+      }
+    }
+  },
+  "generate": {
+    "title": "AI Content Generator",
+    "description": "Select your content type, choose an avatar, and provide a prompt to start generating.",
+    "tabs": {
+      "photo": "Photo",
+      "video": "Video",
+      "audio": "Audio"
+    },
+    "avatarSection": {
+      "title": "Choose Your AI Avatar",
+      "selected": "(Selected: {{name}})",
+      "defaultBadge": "DEFAULT"
+    },
+    "promptSection": {
+      "title": "Describe the Content",
+      "noAvatarTitle": "No Avatar Selected",
+      "noAvatarDescription": "Please select an AI Avatar from the carousel above to continue."
+    }
+  }
+}
